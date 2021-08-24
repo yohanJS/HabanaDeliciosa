@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header-bg {
+    background-image: url(../images-logo/pizza-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-bg {
+    background-image: url(../images-logo/happy-hour.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ul-style {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.my-h {
+    height: 200px;
+}

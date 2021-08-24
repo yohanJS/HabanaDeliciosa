@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #F5F5F5;
+}
+.header-contact {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    justify-items: center;
+}
+#home-btn {
+    margin-top: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #2196f3;
+    font-size: 1.2em;
+}
+#home-btn a {
+    text-decoration: none;
+    color: #eee;
+}
+.main-contact {
+    padding: 50px 0;
+}
