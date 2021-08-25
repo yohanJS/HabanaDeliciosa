@@ -2,6 +2,9 @@
     box-sizing: border-box;
     margin: 0;
 }
+body {
+    font-family: 'Teko', sans-serif;
+}
 
 .header-bg {
     background-image: url(../images-logo/pizza-background.jpg);

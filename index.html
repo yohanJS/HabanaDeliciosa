@@ -9,6 +9,9 @@
 <link rel="stylesheet" href="./style/index.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 <link rel="icon" href="./images-logo/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
 <body>
 
 <!-- NAVBAR -->
@@ -21,12 +24,12 @@
       <span><img src="./images-logo/toogle.svg" id="toggle" alt="toggle" width="30px"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav d-flex align-items-center">
+      <ul class="navbar-nav d-flex align-items-center fs-3">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Menu</a>
+          <a class="nav-link" href="./menu.html">Menu</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">About Us</a>
@@ -39,41 +42,77 @@
 <!-- HEADER SECTION -->
 <div class="container-fluid d-flex justify-content-center header-bg min-vh-100">
   <div class="row">
+    <div class="col mt-5">
+      <h2 class="fs-1">Habana Deliciosa Bakey & Deli</h2>
+      <p class="fs-3">Lorem Ipsum lorem ipsum</p>
+    </div>
+  </div>
+  <div class="row">
     <div class="col align-self-center">
-      <button type="button" class="btn btn-dark btn-lg text-light text-uppercase">Order Now</button>
+      <button class="btn btn-dark btn-lg text-light text-uppercase fs-1">Order Now</button>
     </div>
   </div>
 </div>
 
 <!-- MAIN SECTION -->
-<main class="m-2">
+<main>
   <!-- SPECIAL OCASIONS SECTION -->
-  <div class="container">
+  <div class="container-fluid bg-dark text-light p-3">
     <div class="row my-h">
       <div class="col-7 align-self-center text-center">
-        <h5>Special Ocasions</h5>
-        <button class="btn btn-info text-light">Find More</button>
+        <h5 class="fs-3">Special Ocasions</h5>
+        <button class="btn btn-info text-light fs-4">Find More</button>
       </div>
       <div class="col-5 main-bg shadow-lg"></div>
     </div>
   </div>
 
+  <!-- BEST DISHES SECTION -->
+  <div class="container p-3 mt-5">
+    <h2 class="text-center">MENU HIGHLIGHTS</h2>
+    <div class="row row-cols-2 row-cols-sm-4 p-sm-4 mt-4 gy-2">
+      <div class="col align-self-center">
+        <img src="./images-logo/dish-1.jpg" class="w-100" alt="pizza dish">
+      </div>
+      <div class="col-5">
+        <img src="./images-logo/dish-2.jpg" class="w-100" alt="rice and beans dish">
+      </div>
+      <div class="col">
+        <img src="./images-logo/dish-3.jpg" class="w-100" alt="pastries">
+      </div>
+      <div class="col-4">
+        <img src="./images-logo/dish-4.jpg" class="w-100" alt="bowl of food">
+      </div>
+      <div class="col align-self-center">
+        <img src="./images-logo/dish-5.jpg" class="w-100" alt="bowl of food">
+      </div>
+      <div class="col-5">
+        <img src="./images-logo/dish-6.jpg" class="w-100" alt="rice and beans dish">
+      </div>
+    </div>
+  </div>
+
   <!-- CONTACT-MAP SECTION -->
-  <div class="container-fluid mt-2 pt-3">
+  <div class="container-fluid mt-2 pt-3 bg-light">
     <div class="row row-cols-1 row-cols-sm-2 justify-content-center">
       
-      <div class="col col-sm-2 mt-4 p-0">
+      <div class="col col-sm-5 mt-4 p-4">
         <div class="row">
-          <h4 class="text-center">Contact Us</h4>
+          <h1 class="text-center">Contact Us</h1>
           <div class="col text-center mt-3">
-            <div class="row">
+            <div class="row row-cols-2 row-cols-sm-2">
               <div class="col">
-                <p class="lead">Annie <i class="fas fa-phone-square-alt"></i></p>
-                <a href="tel:772-203-6306" class="text-decoration-none">772-203-6306</a>
+                <p class="lead fs-4">Annie <i class="fas fa-phone-square-alt"></i></p>
+                <a href="tel:772-203-6306" class="text-decoration-none fs-5">772-203-6306</a>
               </div>
               <div class="col">
-                <p class="lead">Juan Carlos <i class="fas fa-phone-square-alt"></i></p>
-                <a href="tel:772-203-6056" class="text-decoration-none">772-203-6056</a>
+                <p class="lead fs-4">Juan Carlos <i class="fas fa-phone-square-alt"></i></p>
+                <a href="tel:772-203-6056" class="text-decoration-none fs-5">772-203-6056</a>
+              </div>
+              <div class="col-12 mt-3">
+                <h1 class="mt-2">Hours</h1>
+                <p class="lead fs-3">Monday-Saturday</p>
+                <p class="fs-4">10:00 a.m - 8:00 p.m</p>
               </div>
             </div>
           </div>
@@ -81,11 +120,11 @@
       </div>
 
       <div class="col mt-4 mb-4 p-0 text-center">
-        <h3>Location</h3>
+        <h1 class="fs-1 mt-5 mb-4">Location</h1>
         <iframe class="shadow-lg w-100 my-h" src="https://maps.google.com/maps?q=bp%20233%20sw%20port%20st.luice%20blvd,%20Port%20Saint%20&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         <a href="https://getasearch.com/nordvpn-coupon/"></a>
       </div>
-      
+
     </div>
   </div>
 </main>
