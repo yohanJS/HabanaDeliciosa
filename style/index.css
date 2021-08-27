@@ -26,3 +26,12 @@ body {
 .my-h {
     height: 300px;
 }
+.menu-bg-img {
+    background-image: url(../images-logo/menu-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.op {
+    opacity: 0.7;
+}
